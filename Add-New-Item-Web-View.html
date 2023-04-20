@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Add-New-Item-Web-View.css">    
+    <title>Web View</title>
+</head>
+<body>
+    <div class="notshow">
+    <div class="upper-container">
+        <div class="upeer-container1">
+            <span id="tasks"> Tasks </span>
+
+            <span id="lists"> Lists </span>
+        </div>
+        <div class="upper-container2">
+
+            <div id="circle-left">
+                <i class="fa fa-arrow-circle-left" style="font-size:24px"></i>
+            </div>
+
+            <div id="circle">
+                <i class="fa fa-plus-circle" style="font-size:32px;color: #00bfff"></i>
+            </div>
+
+            <div id="addnewlist"> Add New Task </div>
+            <div id="back"> Back </div>
+        </div>
+    </div>
+    <div class="down">
+    <div class="lower">
+    <div class="card1">
+        <div class="div1">
+            <p> Trip to Paris </p>
+        </div>
+        <div class="div2">
+            <input type="checkbox" name="todo" id="check" onclick="return false;" checked>
+            <label for="todo">Visit Church</label>
+        </div>
+        <div class="div3">
+            <form action="">
+                <input type="checkbox" name="todo" id="check">
+                <label for="todo">Shopping</label>
+            </form>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="pop-up"><a href="./Trip-to-Paris-Web-View.html">
+            <p id="add-new"> Add New Item </p></a>
+        <textarea class="pop-upbar"style="width: 290px; height: 18px;" placeholder="Visit Famous Places"></textarea>
+        <button class="pop-up-button">+ ADD Item</button>
+        <div id="close">
+            <i class="fa fa-close" style="font-size:15px"></i>
+        </div>
+    </div>
+</body>
+</html>
